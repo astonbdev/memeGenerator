@@ -1,0 +1,109 @@
+
+.meme{
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.meme:hover .deleteOverlay{
+    opacity: 100%;
+}
+
+.meme:hover{
+    background: #c7c8c9;
+    opacity:50%;
+}
+
+.memeText{
+    font-size: 42px;
+    color: white;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
+
+.textTop{
+    position:absolute;
+    top:0%;
+    display: inline-block;
+}
+
+.textBottom{
+    position: absolute;
+    bottom: 0%;
+    display:inline-block;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.light-back{
+    background: #21303b;
+}
+
+.dark-back{
+    background: #131b22
+
+}
+
+.btn-style{
+    background: #d3d3d3;
+}
+
+.deleteOverlay{
+    position:absolute;
+    top:50%;
+    text-align: center;
+    display: inline-block;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: xx-large;
+    
+    background-color: black;
+    opacity: 0;
+}
+
+
+#container{
+    display: inline-block;
+    background: #21303b;
+}
+
+
+body{
+    background: #21303b;
+}
+
+h1{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4f9f96;
+}
+
+label{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4f9f96;
+}
+
+input{
+    width:100%;
+}
+
+img{
+    min-width: 400px;
+    min-height: 400px;
+}
+
